@@ -7,3 +7,13 @@ Thread::Thread()
       runtime = 1;
 }
 
+Thread::~Thread()
+{
+      delete stack;
+      stack = NULL;
+}
+void Thread::IncrementRun()
+{
+      this->runtime++;
+}
+
