@@ -37,7 +37,9 @@ class Thread
     
         void IncrementRun();
 
+        /* Returns a reference to the thread's sigjmp_buf buffer */
 
+        operator GetBuffer&();
 
 
 };
