@@ -17,3 +17,7 @@ void Thread::IncrementRun()
       this->runtime++;
 }
 
+Thread::operator GetBuffer&()
+{
+        return this->env;
+}
