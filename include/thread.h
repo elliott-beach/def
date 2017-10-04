@@ -23,6 +23,8 @@ class Thread
     public:
 
         Thread();
+    
+        ~Thread();
 
         Thread(void (*args)());
     
