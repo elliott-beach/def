@@ -30,10 +30,13 @@ class Thread
     
         /* How many times has this thread ran? */
         
-        unsigned int GetRuntime() const
+        unsigned int GetRuntimes() const
         {
               return this->runtime;   
         }
+    
+        void IncrementRun();
+
 
 
 
