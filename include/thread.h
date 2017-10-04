@@ -19,6 +19,13 @@ class Thread
         /* Thread's environment buffer */
         
         sigjmp_buf env;
+    
+    public:
+
+        Thread();
+
+        Thread(void (*args)());
+
 
 
 };
