@@ -25,6 +25,13 @@ class Thread
         Thread();
 
         Thread(void (*args)());
+    
+        /* How many times has this thread ran? */
+        
+        unsigned int GetRuntime() const
+        {
+              return this->runtime;   
+        }
 
 
 
