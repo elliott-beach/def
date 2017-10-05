@@ -8,5 +8,12 @@ class Scheduler
         /* Blocked list */
 
         std::vector<int> BlockedList;
+   
+        std::deque<int> ReadyList;
+
+   public:
+   
+        int AddThread();
+
 
 };
