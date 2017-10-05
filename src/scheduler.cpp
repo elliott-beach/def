@@ -4,7 +4,7 @@
 
 int Scheduler::AddThread()
 {
-       int res = GetMinimunTid();
+       int res = GetLastAvailableTid();
       
        if (res != -1)
        {
