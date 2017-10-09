@@ -40,7 +40,7 @@ void Uthreads::SignalHandler(int Signal)
 }
 
 
-int Uthreads::uthread_get_tid()
+int Uthreads::GetCurrent()
 {
         return Scheduler.GetRunningTid();
 }
