@@ -1,5 +1,7 @@
 #pragma once
 
+typedef unsigned long address_t;
+
 /* 64 Bits architecture */
 
 #ifdef __x86_64__
@@ -8,7 +10,6 @@
 
 #define JB_SP 6
 #define JB_PC 7
-
 
 address_t translate_address(address_t addr)
 {
@@ -28,7 +29,6 @@ address_t translate_address(address_t addr)
 
 #define JB_SP 4
 #define JB_PC 5
-
 
 address_t translate_address(address_t addr)
 {
