@@ -78,7 +78,7 @@ class Uthreads
               return this->Locked;
           }
           
-          int uthread_get_tid();
+          int GetCurrent();
           
           /* 
            * Returns number of quantums with provided id
