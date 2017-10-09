@@ -22,4 +22,3 @@ logger.o:
 clean:
         rm -vf *.o 
         rm -rf uthreads
-
