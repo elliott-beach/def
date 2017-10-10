@@ -72,7 +72,5 @@ void Thread::DecrementSleepCounter()
         }
 
         this->SleepCounter--;
-        
-        Instance->Logs->Log("Sleep counter set to: " + this->SleepCounter);
-        
+                
 }
